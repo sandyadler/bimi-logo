@@ -1,23 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg"
-     version="1.1"
+     version="1.2"
+     baseProfile="tiny"
      viewBox="0 0 1000 1000">
-  <title>Adler Consulting Partners BIMI Logo</title>
-  <g fill="none" fill-rule="evenodd">
-    <!-- Main "A" shape -->
-    <path fill="#1F2D39"
-          d="M200 850 L500 150 L800 850 Z"/>
-    <!-- Inner cut / negative space for the A -->
-    <path fill="#FFFFFF"
-          d="M360 800 L500 280 L640 800 Z"/>
-    <!-- Blue swoosh -->
-    <path fill="#52A3CB"
-          d="M230 620
-             C 360 540 640 700 770 620
-             L 770 675
-             C 640 755 360 595 230 675
-             Z"/>
-    <!-- Orange bar -->
-    <rect x="260" y="740" width="480" height="60" fill="#FF8C42"/>
-  </g>
+
+  <!-- Navy base -->
+  <path fill="#1E2A36" d="
+    M50 980
+    L310 440
+    C450 580 650 540 800 420
+    L950 420
+    L850 600
+    C650 580 430 680 270 850
+    L150 980
+    Z" />
+
+  <!-- Blue triangle -->
+  <polygon fill="#2A7FB9" points="
+    500,20
+    820,580
+    180,580" />
+
+  <!-- White swoosh -->
+  <path fill="#FFFFFF" d="
+    M160 430
+    C200 540 420 600 650 520
+    C780 470 820 450 900 430
+    L900 410
+    C780 410 650 420 500 500
+    C320 600 200 540 160 430
+    Z" />
+
+  <!-- Orange block -->
+  <polygon fill="#F6893D" points="
+    700,720
+    900,720
+    960,880
+    760,880" />
+
 </svg>
